@@ -1,0 +1,154 @@
+body {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #ebe5e5;
+}
+
+
+
+/* Text Styling */
+
+.big-heading {
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.features-txt {
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+
+.testimonial-txt {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.pricing-txt {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.cta-heading {
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.card-header-txt {
+  font-weight: 600;
+}
+
+/* Header */
+
+#title {
+  position: relative;
+  text-align: left;
+  background-color: #121a29;
+}
+
+.container-fluid {
+  padding: 3% 10% 5%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.dnld-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.header-img {
+  width: 28%;
+  position: absolute;
+  right: 15%;
+}
+.features-icon {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.features-icon:hover {
+  color: #3e4c64;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #121a29;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/* Testimonials Section */
+
+#cta {
+  background-color: #121a29;
+
+  padding: 6% 10% 3%;
+}
+
+#footer {
+  background-color: #121a29;
+
+  padding: 5% 10%;
+}
+.sm-icons {
+  margin: 8px;
+  color: white;
+}
+
+@media (max-width: 1020px) {
+  #title {
+    text-align: center;
+  }
+  .header-img {
+    position: static;
+    width: 60%;
+  }
+}
+
+
+@media (min-width: 1920px) {
+  .big-heading {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+  }
+  
+}

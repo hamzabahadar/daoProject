@@ -1,0 +1,74 @@
+body {
+  background-color: #222b42;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #ebe5e5;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  color: #ebe5e5;
+}
+
+.navbar-brand {
+  font-family: "Space Grotesk", sans-serif;
+  padding-left: 40px;
+}
+
+.offcanvas{
+  text-align: left;
+}
+
+.links:hover{
+  background-color: #384562;
+  transition-duration: 800ms;
+}
+
+:root{
+  --offcanvas-width: 270px;
+  --topNavbarHeight: 60px;
+}
+.sidebar-nav{
+  width: var(--offcanvas-width);
+}
+
+section{
+  padding-top: 60px;
+  padding-bottom: 900px;
+  
+  
+}
+
+
+@media (min-width: 100px) {
+
+  body{
+    overflow: auto !important;
+  }
+  section{
+    margin-left: var(--offcanvas-width);
+    margin-top: var(--topNavbarHeight);
+  }
+  .offcanvas-backdrop::before{
+    display: none;
+  }
+  .sidebar-nav{
+    transform: none;
+    visibility: visible !important;
+    top:var(--topNavbarHeight);
+    height: calc(100% -var(--topNavbarHeight));
+  }
+  
+}

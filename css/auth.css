@@ -1,0 +1,14 @@
+body {
+  background-color: #121a29;
+  text-align: center;
+}
+div {
+  position: relative;
+  top: 280px;
+}
+
+h1 {
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+}
